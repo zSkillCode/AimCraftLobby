@@ -22,6 +22,7 @@ public class PlayerJoinQuitListener implements Listener {
     public void onJoin(final @NotNull PlayerJoinEvent event) {
         event.setJoinMessage("");
         final Player player = event.getPlayer();
+        player.sendMessage(Constants.JOIN_MESSAGE);
 
         player.getInventory().clear();
         player.setFlying(false);

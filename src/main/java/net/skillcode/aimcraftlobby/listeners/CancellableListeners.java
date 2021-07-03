@@ -48,9 +48,7 @@ public class CancellableListeners implements Listener {
 
     @EventHandler
     public void onWeatherChange(final @NotNull WeatherChangeEvent event) {
-        if (event.toWeatherState()) {
-            event.setCancelled(true);
-        }
+        event.setCancelled(true);
     }
 
     @EventHandler

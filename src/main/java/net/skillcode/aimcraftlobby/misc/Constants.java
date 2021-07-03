@@ -8,6 +8,8 @@ public class Constants {
     public static final String COMPASS_NAME = "§8» §eMinigames";
     public static final String RADIO_NAME = "§8» §eRadio";
     public static final String MLGRUSH_NAME = "§8» §eAdvancedMLGRush";
+    public static final String JOIN_MESSAGE = "§8» §6§lAimCraft §8| §7Welcome to AimCraft! \n" +
+            "§8» §6§lAimCraft §8| §7Our Discord§8: §ehttps://discord.skillplugins.com";
 
     public static final String COMPASS_INVENTORY_NAME = "§8» §eCompass";
 
